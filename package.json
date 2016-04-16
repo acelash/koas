@@ -4,8 +4,8 @@
     "url": "https://github.com/danneu/koa-skeleton"
   },
   "scripts": {
-    "start": "node ./src/index.js",
-    "start-dev": "nodemon --ext js,html ./src/index.js",
+    "start": "node src\/routes\/index.js",
+    "start-dev": "node ./src/index.js",
     "reset-db": "node ./sql/reset_db.js",
     "test": "NODE_ENV=test mocha --reporter spec"
   },
